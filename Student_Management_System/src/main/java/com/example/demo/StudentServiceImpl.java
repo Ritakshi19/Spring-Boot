@@ -22,7 +22,6 @@ public List<Student> getAllStudents() {
 
 @Override
 public Student saveStudent(Student student) {
-	
 	return studentRepository.save(student);
 }
 

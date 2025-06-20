@@ -27,7 +27,7 @@ public class StudentController {
 	@GetMapping("/ping")
 	@ResponseBody
 	public String ping() {
-	    return "Pong! Server is running.";
+	    return " Server is running.";
 	}
 	
 	@GetMapping("/students/new")
@@ -38,7 +38,7 @@ public class StudentController {
 		
 	}
 	
-	@PostMapping("/students")
+	@PostMapping("/students/save")
 	public String saveStudent(@ModelAttribute("student") Student student) {
 		studentService.saveStudent(student);
 		return "redirect:/students";
