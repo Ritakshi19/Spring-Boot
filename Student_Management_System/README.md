@@ -1,6 +1,6 @@
 # Student Management System
 
-#### features
+### Features
 - Home Page shows the entry of students.
 - New student details can be entered through "Add Student" Button.
 - Student details can be updated as well as deleted
@@ -8,7 +8,7 @@
 - Validation is implemented for both Email and Mobile number fields in the form.
 
 
-#### Screenshot of the Output   
+### Screenshot of the Output   
 ![Screenshot 2025-07-09 194701](https://github.com/user-attachments/assets/b8f5061d-830b-4e28-94b4-b7b2bb016141)
 
 ![Screenshot 2025-07-09 194733](https://github.com/user-attachments/assets/295ebd79-737c-4867-a325-ae2f82d42d5a)
