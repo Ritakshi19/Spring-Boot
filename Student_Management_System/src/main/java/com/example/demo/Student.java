@@ -18,14 +18,14 @@ import jakarta.persistence.Id;
 		@Column(nullable = false)
 		private String email;
 		@Column(nullable = false)
-		private int mobileNo;
+		private String mobileNo;
 		
 		
 		
 		public Student() {
 			
 		}
-		public Student(String name, String course, String email, int mobileNo) {
+		public Student(String name, String course, String email, String mobileNo) {
 			super();
 			this.name = name;
 			this.course = course;
@@ -56,10 +56,10 @@ import jakarta.persistence.Id;
 		public void setEmail(String email) {
 			this.email = email;
 		}
-		public int getMobileNo() {
+		public String getMobileNo() {
 			return mobileNo;
 		}
-		public void setMobileNo(int mobileNo) {
+		public void setMobileNo(String mobileNo) {
 			this.mobileNo = mobileNo;
 		}
 

@@ -26,5 +26,29 @@ public Student saveStudent(Student student) {
 }
 
 
+@Override
+public Student getStudentById(Long id) {
+	
+	return studentRepository.findById(id).get();
+}
+
+
+@Override
+public Student updateStudent(Student student) {
+	// TODO Auto-generated method stub
+	return studentRepository.save(student);
+}
+
+
+@Override
+public void deleteStudentById(Long id) {
+	studentRepository.deleteById(id);
+
+	
+	
+}
+
+
+
 
 }
